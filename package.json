@@ -1,0 +1,38 @@
+{
+  "name": "azure-arm-rest",
+  "version": "1.0.1",
+  "description": "Azure resource manager node rest module",
+  "keywords": [
+    "appservice",
+    "actions"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumiranAgg/azure-arm-rest.git"
+  },
+  "author": "Sumiran Aggarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SumiranAgg/azure-arm-rest/issues"
+  },
+  "homepage": "https://github.com/SumiranAgg/azure-arm-rest#readme",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/io": "^1.0.1",
+    "azure-actions-webclient": "^1.0.1",
+    "fs": "0.0.1-security",
+    "util": "^0.12.1",
+    "xml2js": "^0.4.22"
+  },
+  "files": [
+    "lib/**/**"
+  ]
+}
